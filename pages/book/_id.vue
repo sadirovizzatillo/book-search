@@ -11,9 +11,9 @@
           <p>Book Author: {{ singleBook.authors[0] }}</p>
           <p>Book Sudjet: {{ singleBook.categories[0] }}</p>
           <p>Published Date: {{ singleBook.publishedDate }}</p>
-          <router-link target="_blank" :to="singleBook.previewLink">
+          <a target="_blank" :href="singleBook.previewLink">
             Here You can find more info about this book...
-          </router-link>
+          </a>
         </div>
       </div>
     </div>
