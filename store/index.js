@@ -5,7 +5,7 @@ export const getters = {
 }
 
 export const state =  {
-    books:[]
+    books:{}
 }
 
 export const mutations = {
